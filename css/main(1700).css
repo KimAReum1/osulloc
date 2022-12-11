@@ -263,17 +263,53 @@
     }
 
 
+
+
+
+    /* --------------------프로그램 영역------------------------ */
+
+    #program_in .musieum {
+        margin: 0 auto;
+        width: 62%;
+        /* 1200/1920 */
+        background: url(../images/1/teamusieum.jpg) no-repeat 0 0;
+        background-size: 100%;
+        margin-top: 100px;
+        margin-bottom: 0;
+    }
+
+
+    #program_in .jejutea {
+        margin: 0 auto;
+        width: 62%;
+        /* 1200/1920 */
+        height: 450px;
+        background: url(../images/1/jejutea.jpg) no-repeat 0 0;
+        background-size: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
     /* ---------------------------다다일상------------------------- */
 
     #dada {
         width: 100%;
-        height: 1100px;
+        height: 1200px;
 
     }
 
     #dada_in {
         width: 100%;
-        height: 900px;
+        height: 1100px;
         background-color: rgb(242, 248, 241);
     }
 
@@ -318,14 +354,16 @@
     }
 
     #dada_in .left .dadaitem img {
-        width: 228px;
-        height: 154px;
+        width: 18vw;
+        /* width: 228px;
+        height: 154px; */
     }
 
     #dada_in .left .dadaitem p {
         font-size: 0.8vw;
-        width: 228px;
-        height: 154px;
+        width: 18vw;
+        /* width: 228px;*/
+        height: 14vw;
     }
 
 
@@ -350,7 +388,7 @@
 
     #dada_in .dada2 {
 
-        margin-left: 200px
+        margin: 5vw;
     }
 
     #dada_in .dada2 img {
@@ -371,7 +409,7 @@
 
 
     #dada_in .dada3 {
-        margin-left: 300px
+        margin-left: 10vw;
     }
 
     #dada_in .dada3 img {
@@ -391,8 +429,8 @@
 
 
     #dada_in .review {
-        margin-left: 800px;
-        margin-top: 30px;
+        margin-left: 50vw;
+        margin-top: 4vw;
         width: 125px;
         height: 35px;
         background-color: rgb(19, 130, 17);
@@ -444,9 +482,123 @@
 
 
     /* ----------------------하단영역---------------------------- */
+
+    #footer .footer_h .left {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 45%;
+        /* 800/1920 */
+    }
+
+    #footer .footer_h .left p {
+        font-size: 1vw;
+    }
+
+    #footer .footer_h .left b {
+        font-size: 2vw;
+    }
+
+
+    #footer .footer_h .center {
+        display: flex;
+        justify-content: space-between;
+        width: 30%;
+        /* 500/1920 */
+    }
+
+    #footer .footer_h .center p {
+        font-size: 1vw;
+    }
+
+    #footer .footer_h .center b {
+        font-size: 1vw;
+    }
+
+
+
+
+    #footer .footer_h .right {
+        display: flex;
+        width: 13%;
+        /* 250/1920 */
+
+    }
+
+    #footer .footer_h .right>div {
+        width: 40%;
+        /* 100/250 */
+        height: 35px;
+        border: 1px solid #ccc;
+        background-color: rgb(237, 230, 230);
+        box-sizing: border-box;
+        font-size: 1vw;
+        text-align: center;
+        line-height: 35px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #footer .footer_b .left {
+        float: left;
+        width: 57%;
+        /* 1100/1920 */
+        height: 330px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #footer .footer_b .left .box {
+        float: right;
+        width: 81%;
+        /* 900/1100 */
+        height: 200px;
+    }
+
+    #footer .footer_b .left li {
+        float: left;
+        border-right: 1px solid rgb(109, 107, 107);
+        max-width: 100%;
+        padding-right: 5px;
+        margin-right: 5px;
+        font-size: 0.8vw;
+        font-weight: 500;
+    }
+
+    #footer .footer_b .introduce {
+        margin-top: 20px;
+        width: 88%;
+        /* 800/900*/
+        height: 150px;
+        background-color: rgba(249, 237, 244, 0.849);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 20px;
+        box-sizing: border-boxa;
+    }
+
+
+
+
     #footer .footer_b .right {
         float: right;
-        width: 320px;
+        width: 31%;
+        /* 600/1920 */
         height: 330px;
         display: flex;
         flex-direction: column;
@@ -455,7 +607,8 @@
     }
 
     #footer .footer_b .right .survice {
-        width: 100%;
+        width: 66%;
+        /* 400/600 */
         height: 100px;
         background-color: rgba(249, 237, 244, 0.849);
         margin-bottom: 20px;
@@ -472,7 +625,9 @@
 
     #footer .footer_b .right .survice p {
         float: right;
-        margin-right: 20px;
+        margin-right: 0.2vw;
+        font-size: 0.3vw;
+        line-height: 22px;
     }
 
 
@@ -482,7 +637,8 @@
 
 
     #footer .footer_b .right .icon {
-        width: 100%;
+        width: 66%;
+        /* 400/600 */
         height: 60px;
     }
 
